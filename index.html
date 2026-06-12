@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fitness Check-in App Mockup</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="board" aria-label="Fitness check-in app high fidelity mockup">
+      <section class="phone" aria-label="Today screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="large-nav">
+              <h1>Today</h1>
+              <button class="icon-btn" aria-label="Notifications">bell</button>
+            </header>
+
+            <section class="goal-card">
+              <div class="ring"><span>20</span></div>
+              <div>
+                <h2>Daily Goal</h2>
+                <p>30 active minutes</p>
+                <strong>20 / 30 min</strong>
+              </div>
+            </section>
+
+            <section class="ios-section">
+              <div class="section-row row-chevron">
+                <div class="flame-icon">hot</div>
+                <div>
+                  <h3>7 Day Streak</h3>
+                  <p>Keep it going!</p>
+                </div>
+              </div>
+              <div class="week-dots">
+                <span class="done">M</span><span class="done">T</span><span class="done">W</span><span class="done">T</span>
+                <span class="done">F</span><span class="done">S</span><span>S</span>
+              </div>
+            </section>
+
+            <section class="status-card">
+              <div class="mood">:)</div>
+              <div>
+                <h3>Today's Status</h3>
+                <p>Feeling good. You're on track.</p>
+              </div>
+            </section>
+
+            <div class="section-title">Quick Check-in</div>
+            <section class="activity-grid">
+              <button><span class="activity walk">walk</span>Walk</button>
+              <button><span class="activity run">run</span>Run</button>
+              <button><span class="activity yoga">yoga</span>Yoga</button>
+              <button><span class="activity gym">gym</span>Gym</button>
+            </section>
+
+            <div class="title-line">
+              <span>Recent</span><a>View All</a>
+            </div>
+            <section class="ios-section compact-list">
+              <div class="section-row">
+                <span class="activity walk">walk</span>
+                <div>
+                  <h3>Morning Walk</h3>
+                  <p>28 min · Moderate</p>
+                </div>
+                <small>Today</small>
+              </div>
+            </section>
+            <nav class="tabbar">
+              <a class="active">Today</a><a>Calendar</a><a>Progress</a><a>Profile</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Check In screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="sheet-nav">
+              <a>Cancel</a><h2>Check In</h2><span></span>
+            </header>
+            <section class="ios-section">
+              <div class="form-label">Activity Type</div>
+              <div class="section-row row-chevron">
+                <span class="activity run">run</span>
+                <h3>Run</h3>
+              </div>
+            </section>
+            <section class="ios-section">
+              <div class="form-label">Duration</div>
+              <div class="stepper-row">
+                <button>-</button><strong>30 <small>min</small></strong><button>+</button>
+              </div>
+            </section>
+            <section class="ios-section">
+              <div class="form-label">Intensity</div>
+              <div class="segmented">
+                <button>Low</button><button class="selected">Moderate</button><button>High</button>
+              </div>
+            </section>
+            <section class="ios-section">
+              <div class="form-label">How are you feeling?</div>
+              <div class="mood-row">
+                <button class="selected">Great</button><button>Good</button><button>Okay</button><button>Tired</button><button>Low</button>
+              </div>
+            </section>
+            <section class="ios-section note-box">
+              <div class="form-label">Notes <span>(optional)</span></div>
+              <p>How did it feel? Anything to note?</p>
+            </section>
+            <button class="primary fixed-bottom">Complete Check-in</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Check-in Result screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen result-screen">
+            <div class="confetti"><i></i><i></i><i></i><i></i></div>
+            <div class="success-mark">✓</div>
+            <h1>Nice work!</h1>
+            <p>Check-in complete</p>
+            <section class="summary-grid">
+              <div><span>Streak</span><strong>7</strong><small>days</small></div>
+              <div><span>Activity</span><strong>Run</strong></div>
+              <div><span>Duration</span><strong>30</strong><small>min</small></div>
+            </section>
+            <section class="ios-section feel-card">
+              <span class="face">:)</span>
+              <h3>How you felt</h3>
+              <p>Great</p>
+            </section>
+            <section class="ios-section progress-card">
+              <h3>This Week's Goal</h3>
+              <div class="percent-line"><strong>20 / 30 min</strong><span>67%</span></div>
+              <div class="progress-track"><span style="width: 67%"></span></div>
+            </section>
+            <p class="support-copy">You're doing great. Keep building healthy habits.</p>
+            <button class="primary fixed-bottom">Done</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Calendar screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="large-nav small-action">
+              <h1>Calendar</h1>
+              <button class="icon-btn">cal</button>
+            </header>
+            <section class="ios-section calendar-card">
+              <div class="calendar-head"><strong>May 2025</strong><span>‹  ›</span></div>
+              <div class="week-labels"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div>
+              <div class="calendar-grid">
+                <em>28</em><em>29</em><em>30</em><b>1</b><b>2</b><b>3</b><b>4</b>
+                <b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>10</b><b>11</b>
+                <b>12</b><b>13</b><b>14</b><b>15</b><strong>16</strong><b>17</b><b>18</b>
+                <b>19</b><b>20</b><b>21</b><b>22</b><b>23</b><b>24</b><b>25</b>
+                <b>26</b><b>27</b><b>28</b><b>29</b><b>30</b><b>31</b><em>1</em>
+              </div>
+            </section>
+            <section class="ios-section compact-list">
+              <div class="section-header"><strong>Friday, May 16</strong><a>Edit</a></div>
+              <div class="section-row">
+                <span class="activity run">run</span>
+                <div><h3>Morning Run</h3><p>30 min · Moderate</p></div>
+              </div>
+              <div class="section-row">
+                <span class="activity yoga">yoga</span>
+                <div><h3>Evening Yoga</h3><p>20 min · Low</p></div>
+              </div>
+              <button class="inline-add">+ Add Check-in</button>
+            </section>
+            <nav class="tabbar">
+              <a>Today</a><a class="active">Calendar</a><a>Progress</a><a>Profile</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Activity Detail screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="sheet-nav">
+              <a>Back</a><h2>Morning Run</h2><a>•••</a>
+            </header>
+            <section class="detail-hero">
+              <span class="activity run">run</span>
+              <div>
+                <h1>Morning Run</h1>
+                <p>May 16, 2025 at 7:12 AM</p>
+              </div>
+            </section>
+            <section class="metric-grid">
+              <div><span>Duration</span><strong>30</strong><small>min</small></div>
+              <div><span>Intensity</span><strong>Moderate</strong></div>
+              <div><span>Mood</span><strong>:)</strong><small>Great</small></div>
+            </section>
+            <section class="ios-section">
+              <h3>Notes</h3>
+              <p>Felt strong and energized this morning.</p>
+            </section>
+            <section class="ios-section compact-list">
+              <div class="section-row row-chevron">
+                <span class="flame-icon">cal</span><h3>Active Calories</h3><small>320 kcal</small>
+              </div>
+              <div class="section-row row-chevron">
+                <span class="heart-icon">hrt</span><h3>Avg. Heart Rate</h3><small>142 bpm</small>
+              </div>
+            </section>
+            <div class="bottom-actions">
+              <button>Edit</button><button class="danger">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Progress screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="center-nav"><h2>Progress</h2></header>
+            <div class="segmented top-segment"><button class="selected">Week</button><button>Month</button></div>
+            <div class="date-switch">‹ <strong>May 12 - May 18</strong> ›</div>
+            <section class="chart-card">
+              <div class="chart">
+                <span style="height: 52%"></span><span style="height: 76%"></span><span style="height: 44%"></span>
+                <span style="height: 24%"></span><span style="height: 48%"></span><span style="height: 64%"></span><span style="height: 36%"></span>
+              </div>
+              <div class="chart-labels"><small>Mon</small><small>Tue</small><small>Wed</small><small>Thu</small><small>Fri</small><small>Sat</small><small>Sun</small></div>
+            </section>
+            <section class="summary-grid">
+              <div><span>Active Minutes</span><strong>165</strong><small>min</small></div>
+              <div><span>Workouts</span><strong>5</strong><small>this week</small></div>
+              <div><span>Longest Streak</span><strong>7</strong><small>days</small></div>
+            </section>
+            <div class="section-title">Insights</div>
+            <section class="ios-section compact-list">
+              <div class="section-row row-chevron">
+                <span class="flame-icon">hot</span><div><h3>Great week!</h3><p>You exceeded your goal on 3 days.</p></div>
+              </div>
+              <div class="section-row row-chevron">
+                <span class="face green">:)</span><div><h3>Keep it up</h3><p>Consistency is the key to progress.</p></div>
+              </div>
+            </section>
+            <nav class="tabbar">
+              <a>Today</a><a>Calendar</a><a class="active">Progress</a><a>Profile</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Profile screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="center-nav"><h2>Profile</h2></header>
+            <section class="profile-card">
+              <div class="avatar"></div>
+              <div><h2>Sarah Johnson</h2><p>Joined March 2025</p></div>
+            </section>
+            <section class="ios-section compact-list">
+              <div class="section-row row-chevron"><span class="blue-dot">goal</span><h3>Weekly Goal</h3><small>30 active minutes</small></div>
+              <div class="section-row row-chevron"><span class="green-dot">act</span><h3>Preferred Activities</h3><small>Walk, Run, Yoga</small></div>
+              <div class="section-row row-chevron"><span class="heart-icon">hrt</span><h3>Apple Health</h3><small class="green-text">Connected</small></div>
+              <div class="section-row row-chevron"><span class="blue-dot">bell</span><h3>Notifications</h3><small class="green-text">On</small></div>
+            </section>
+            <section class="ios-section compact-list">
+              <div class="section-row row-chevron"><span class="gray-dot">app</span><h3>Appearance</h3><small>Light</small></div>
+              <div class="section-row row-chevron"><span class="gray-dot">lock</span><h3>Privacy</h3></div>
+            </section>
+            <button class="signout">Sign Out</button>
+            <nav class="tabbar">
+              <a>Today</a><a>Calendar</a><a>Progress</a><a class="active">Profile</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone" aria-label="Goal Settings screen">
+        <div class="device">
+          <div class="status"><span>9:41</span><span class="island"></span><span>5G 100</span></div>
+          <div class="screen">
+            <header class="sheet-nav">
+              <a>Cancel</a><h2>Goal Settings</h2><a>Save</a>
+            </header>
+            <div class="section-title">Your Goals</div>
+            <section class="ios-section compact-list">
+              <div class="setting-stepper"><div><h3>Weekly Workouts</h3><p>days</p></div><button>-</button><strong>5</strong><button>+</button></div>
+              <div class="setting-stepper"><div><h3>Active Minutes Goal</h3><p>minutes</p></div><button>-</button><strong>30</strong><button>+</button></div>
+            </section>
+            <div class="section-title">Reminders</div>
+            <section class="ios-section compact-list">
+              <div class="section-row"><h3>Daily Reminder</h3><span class="toggle on"></span></div>
+              <div class="section-row row-chevron"><h3>Time</h3><small>7:00 AM</small></div>
+            </section>
+            <div class="section-title">Preferred Activities</div>
+            <section class="ios-section compact-list">
+              <div class="section-row"><span class="activity walk">walk</span><h3>Walk</h3><span class="check on"></span></div>
+              <div class="section-row"><span class="activity run">run</span><h3>Run</h3><span class="check on"></span></div>
+              <div class="section-row"><span class="activity yoga">yoga</span><h3>Yoga</h3><span class="check on"></span></div>
+              <div class="section-row"><span class="activity cycle">bike</span><h3>Cycling</h3><span class="check"></span></div>
+              <div class="section-row"><span class="activity gym">gym</span><h3>Gym</h3><span class="check"></span></div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

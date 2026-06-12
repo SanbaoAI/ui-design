@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sanbao Product Manager"
+  short_description: "Clarify requirements before UI design"
+  default_prompt: "Use $sanbao-product-manager to clarify this app idea into a product plan before UI design."

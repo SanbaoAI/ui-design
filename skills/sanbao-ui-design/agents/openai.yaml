@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Design Handoff"
+  short_description: "Confirmed UI mocks for SwiftUI and Element UI"
+  default_prompt: "Use $sanbao-ui-design to analyze an iOS app idea, design a closed-loop SwiftUI board with first-level and second-level screens, then prepare a confirmed HTML handoff."
