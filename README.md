@@ -1,5 +1,7 @@
 # ui-design
 
+[English](./README_EN.md) | [العربية](./README_AR.md) | 中文
+
 Sanbao UI Design 是一组给 Codex 使用的产品与 UI 设计 Skill。它的目标不是直接从一句模糊需求跳到出图，而是先把产品需求梳理清楚，再生成多页面 UI 设计图，并在用户确认后继续生成高保真 HTML handoff。
 
 ## Skill 功能
